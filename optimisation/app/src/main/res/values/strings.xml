@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Mining Optimization</string>
+    <string name="recent_news">Mining Optimization Model</string>
+    <string name="in_news">
+        💎  The new investment decision model has been developed with the use of NPV (Net Present Value) technique to determine the optimum investment, operating cost and mine life for the planned profitability. The correlations have been developed for  (i) optimum investment (I) and revenue (R) (ii) optimum operating cost (C) and revenue (R). The model is useful for determination of optimum financial parameters prior to detailed mine feasibility report.
+\n  \n 🏇 The economic success of a mining project depends upon proper investment decision which enables the achievement of planned profitability throughout the life of the mine. The model has been developed as a new tool for rapid investment decision, which utilises the NPV method for determining the time value of money and the profitability criteria with consideration of depreciation, tax, mine construction period and other parameters for combined analysis. The novelty and uniqueness of the model is that it provides the values of the economic decision parameters in terms of revenue. The model determines the two important correlations for Investment (I) and Operating cost (C) in terms of Revenue (R). The results Obtained in % of revenue (R) extend the application of the model for all types of minerals and it eliminates the problems due to different types of international currencies in practice.
+
+\n \n 📈 For subsequent analysis, the symbols are defined as follows:
+
+\n \n  I = Original investment to bring the mine into production
+\n  R = Gross annual revenue accruing from the sale of mineral at estimated average long-run prices
+\n  C = Annual total operating cost represented in percentage of revenue. It indicates the maximum funds available or allowable towards operating cost, including royalty and equipment replacement cost, and excluding interest expenses and depreciation.
+\n  V = Present value of an amount of Rs.1 per year for n years and discounted at r% per annum, payment being made at the end of each year
+\n  n = Estimated economic life of the mine in years
+\n  m = Mine construction period in years
+\n  t = Tax rate in percentage
+
+\n \n 🚀 Some examples
+
+\n \n 1. Operation and its Optimization for NPV=0 When, Discount Rate (r)=11%, Tax Rate (t)=30%, Profitability (M)=28%, Mine Life (n)=35, and Mine Construction Period (m)=0
+\n \n 2. Operation and its Optimization for NPV=0 When, Discount Rate (r)=11%, Tax Rate (t)=30%, Profitability (M)=28%, Mine Life (n)=30, and Mine Construction Period (m)=3
+\n \n 3. Operation and its Optimization for NPV=VI/n When, Discount Rate(r)= 11%, Tax Rate (t)=30%, Profitability (M)=28%, Mine Life (n)=25, and Mine Construction Period (m)=0
+\n \n 4. Operation and its Optimization for NPV=VI/n When, Discount Rate(r)= 11%, Tax Rate (t)=30%, Profitability (M)=28%, Mine Life (n)=25, and Mine Construction Period (m)=3
+</string>
+    <string name="publish_date">2018-06-30 12:00:00</string>
+
+</resources>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".value">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:clipToPadding="false"
+        app:layout_anchor="@+id/nestedScrollView"
+        app:layout_anchorGravity="left|bottom"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorPrimary"
+            app:cardElevation="10dp"
+
+            app:cardUseCompatPadding="true">
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/lightorangee"
+                android:backgroundTint="@color/colorPrimary">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="25dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="182dp"
+                        android:layout_height="182dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="22dp"
+                        android:layout_marginEnd="22dp"
+                        android:layout_marginStart="22dp"
+
+                        android:background="@drawable/miningtask" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="35dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:text=" Mining Optimization  "
+                            android:textColor="@color/colorprimary"
+
+                            android:textSize="23sp" />
+
+                    </LinearLayout>
+                    <!--<pl.droidsonroids.gif.GifTextView-->
+                        <!--android:layout_marginBottom="20dp"-->
+                        <!--android:layout_width="170dp"-->
+                        <!--android:layout_height="150dp"-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:background="@drawable/abcdef" />-->
+
+                    <Button
+                        android:id="@+id/shw_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@android:color/transparent"
+                        android:text="See Example"
+                        android:textColor="@color/colorAccent" />
+
+
+                    <EditText
+                        android:id="@+id/a_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="12dp"
+                        android:ems="10"
+                        android:hint="Discount Rate"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/colorprimary"
+                        android:textColorHint="@color/lightorange"
+                        android:textColorLink="#ffa000"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/a_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="12dp"
+                        android:ems="10"
+                        android:hint="Tax"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/colorprimary"
+                        android:textColorHint="@color/lightorange"
+                        android:textColorLink="@color/colorprimarydark"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/a_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="12dp"
+                        android:ems="10"
+                        android:hint="Profitability"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/colorprimary"
+                        android:textColorHint="@color/lightorange"
+                        android:textColorLink="@color/colorprimarydark"
+                        android:textSize="18sp" />
+
+
+                    <EditText
+                        android:id="@+id/a_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="22dp"
+                        android:layout_marginEnd="22dp"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="22dp"
+                        android:ems="10"
+                        android:hint="Mine Life"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/colorprimary"
+                        android:textColorHint="@color/lightorange"
+                        android:textColorLink="@color/colorprimarydark"
+                        android:textSize="18sp" />
+
+
+
+
+
+
+
+                    <!--<Button-->
+                    <!--android:id="@+id/but"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginEnd="8dp"-->
+                    <!--android:layout_marginStart="8dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:background="@android:color/transparent"-->
+                    <!--android:text="Next"-->
+                    <!--android:textColor="@color/lightgray"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintHorizontal_bias="1.0"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent"-->
+                    <!--app:layout_constraintVertical_bias="1.0" />-->
+                    <br.com.bloder.magic.view.MagicButton
+                        android:id="@+id/magic_button_youtube"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginRight="13dp"
+                        android:layout_marginStart="13dp"
+                        android:layout_marginTop="18dp"
+                        android:gravity="center"
+                        app:button_icon="@drawable/youtube"
+                        app:button_icon_height="50dp"
+                        app:button_icon_width="35dp"
+                        app:expandable_area_color="@color/colorPrimary"
+                        app:hide_text="Next 💛"
+                        app:icon_button_color="@color/colorPrimaryDark"
+                        app:magic_button_size="47dp" />
+
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+
+
+
+
+
+        </android.support.v7.widget.CardView>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
