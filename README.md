@@ -4,6 +4,8 @@ This application keeps you mine years ahead by optimizing the life of a mine ⛏
 
 - [Personal Website](https://arjun009.github.io)
 
+- [Youtube Video](https://www.youtube.com/watch?v=LgMr7t0APjA)
+
 Description 
 
 💎 The new technique is developed to evaluate the project by combined analysis of total investment, operating cost, cost of production, working profitability, mine life and the net present value (NPV). On comparing two investment proposals, the model analysis would immediately indicate the one which shows better values. This research work is an attempt for assessment of the value of mining investment proposal by comparative analysis of these economical parameters essential for the investment decision at the early exploration stage.
