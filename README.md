@@ -1,6 +1,6 @@
 # Mining-Optmization
 This application keeps you mine years ahead by optimizing the life of a mine ⛏️
-- Check out in [play-store](https://play.google.com/store/apps/details?id=com.optimisation.arjun.optimisation)
+- Check this out at [play-store](https://play.google.com/store/apps/details?id=com.optimisation.arjun.optimisation)
 
 - [Personal Website](https://arjun009.github.io)
 
